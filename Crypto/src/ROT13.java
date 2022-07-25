@@ -1,9 +1,5 @@
 package Crypto.src;
 
-import static java.lang.Character.isLowerCase;
-import static java.lang.Character.isUpperCase;
-import static java.lang.Character.toLowerCase;
-
 public class ROT13  {
 
     ROT13(Character cs, Character cf) {
@@ -41,8 +37,8 @@ public class ROT13  {
     }
 
     public static String rotate(String s, Character c) {
-
-        return s.substring(c) + s.substring(0, c);
+        int lastIndex = s.indexOf(c);
+        return s.substring(lastIndex) + s.substring(0, lastIndex);
     }
 
 }
