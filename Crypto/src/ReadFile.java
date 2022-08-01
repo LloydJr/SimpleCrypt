@@ -14,7 +14,7 @@ public class ReadFile {
         File file = new File("/Users/lloyd/Desktop/projects/SimpleCrypt/sonnet18.txt");
         Scanner scan = new Scanner(file);
 
-        String fileContent = "";
+        String fileContent = "This is a cryptic file made be me!\n";
 //        while(scan.hasNext()){
 //            System.out.println(scan.nextLine());
 ////            System.out.println(newCrypt.crypt(scan.nextLine()));
