@@ -10,7 +10,7 @@ public class ReadFileTest {
     File file = new File("/Users/lloyd/Desktop/projects/SimpleCrypt/sonnet18.txt");
 
     @Test
-    public void testCryptFile() {
+    public void testCryptText() {
         //Arrange
         String A1 = "Shall I compare thee to a summer’s day?\n" +
                 "Thou art more lovely and more temperate:\n" +
